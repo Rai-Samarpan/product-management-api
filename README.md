@@ -1,39 +1,51 @@
 # Product Management API
 
-A simple RESTful API for managing products — create, read, update, and delete product records from a backend service. This project is intended as a learning/demo backend for product catalogs, inventory, or e-commerce prototypes.
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![REST API](https://img.shields.io/badge/API-RESTful-blue)
+![License](https://img.shields.io/badge/License-MIT-black)
+
+A scalable and production-ready RESTful API for seamless product lifecycle management. This service enables efficient creation, retrieval, updating, and deletion of product records, making it suitable for e-commerce systems, inventory platforms, and administrative dashboards.
+
+Built with a clean architecture mindset, the Product Management API emphasizes maintainability, clarity, and extensibility.
 
 ---
 
-## Features
+## 🚀 Key Capabilities
 
-- CRUD operations for products
-- JSON-based HTTP API
-- Layered structure (routing, controllers, services, data layer)
+- Full CRUD functionality for products
+- REST-compliant endpoints
+- Structured request validation
 - Centralized error handling
-- Environment-based configuration (port, database URL, etc.)
+- Environment-based configuration
+- Modular and scalable codebase
+- Ready for integration with frontend or mobile applications
 
 ---
 
-## Tech Stack
+## 🛠 Technology Stack
 
-- **Runtime:** Node.js
-- **Language:** JavaScript
-- **Framework:** (commonly Express – adjust if you’re using something else)
-- **Database:** Any (e.g. MongoDB / PostgreSQL / in-memory) – wire up in `src/` as needed
-- **Package manager:** npm
+- **Runtime:** Node.js  
+- **Framework:** Express.js  
+- **Language:** JavaScript  
+- **Database:** Configurable (MongoDB / SQL / File-based storage)  
+- **Package Manager:** npm  
+- **Environment Management:** dotenv
 
 ---
 
-## Getting Started
+## 📦 Installation
 
-### 1. Prerequisites
+### Prerequisites
 
-- [Node.js](https://nodejs.org/) (LTS version recommended)
-- npm (bundled with Node.js)
-- A running database instance if your code uses a real DB
+Ensure the following are installed:
 
-### 2. Clone the repository
+- Node.js (v16+ recommended)
+- npm
+- A configured database (if applicable)
+
+### Setup Steps
 
 ```bash
 git clone https://github.com/Rai-Samarpan/product-management-api.git
 cd product-management-api
+npm install
